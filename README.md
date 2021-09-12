@@ -1,0 +1,2 @@
+# eslint-config
+`aslant` Configuration
