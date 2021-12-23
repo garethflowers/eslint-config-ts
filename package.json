@@ -1,0 +1,61 @@
+{
+	"author": {
+		"name": "Gareth Flowers",
+		"url": "https://garethflowers.dev"
+	},
+	"bugs": {
+		"url": "https://github.com/garethflowers/eslint-config-ts/issues"
+	},
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "5.3.1",
+		"@typescript-eslint/parser": "5.3.1",
+		"eslint": "7.32.0",
+		"eslint-plugin-import": "2.25.3",
+		"eslint-plugin-jsdoc": "37.0.3"
+	},
+	"description": "Opinionated strict [eslint](https://github.com/palantir/eslint) configuration for TypeScript and JavaScript projects.",
+	"devDependencies": {
+		"mocha": "9.1.3",
+		"typescript": "4.4.4"
+	},
+	"engines": {
+		"node": ">=12",
+		"npm": ">=7"
+	},
+	"eslintConfig": {
+		"extends": [
+			"./src/index.js"
+		]
+	},
+	"funding": {
+		"type": "kofi",
+		"url": "https://ko-fi.com/garethflowers"
+	},
+	"homepage": "https://github.com/garethflowers/eslint-config-ts",
+	"license": "MIT",
+	"main": "src/index.js",
+	"mocha": {
+		"check-leaks": true,
+		"colors": true,
+		"exit": true,
+		"full-trace": true,
+		"inline-diffs": true,
+		"recursive": true,
+		"slow": 40,
+		"spec": "src/**/*.spec.js"
+	},
+	"name": "@garethflowers/eslint-config-ts",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/garethflowers/eslint-config-ts.git"
+	},
+	"scripts": {
+		"build": "",
+		"lint": "eslint .",
+		"postversion": "git push --follow-tags",
+		"preversion": "npm test",
+		"start": "npm test",
+		"test": "npm run lint"
+	},
+	"version": "0.0.0"
+}

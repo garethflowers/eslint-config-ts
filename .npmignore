@@ -1,0 +1,5 @@
+**/*.spec.*
+/.*
+/dist/coverage
+/dist/xunit.xml
+/ts*.json
