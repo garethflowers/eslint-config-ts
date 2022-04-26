@@ -8,7 +8,7 @@ for TypeScript and JavaScript projects.
 ```sh
 npm install eslint @garethflowers/eslint-config-ts --save-dev
 ```
-f
+
 ## Usage
 
 In `package.json` add an `eslintConfig` section:
