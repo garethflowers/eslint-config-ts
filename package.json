@@ -50,12 +50,12 @@
 		"url": "git://github.com/garethflowers/eslint-config-ts.git"
 	},
 	"scripts": {
-		"build": "",
+		"build": "npm run lint",
 		"lint": "eslint .",
 		"postversion": "git push --follow-tags",
 		"preversion": "npm test",
 		"start": "npm test",
-		"test": "npm run lint"
+		"test": ""
 	},
 	"version": "0.0.0"
 }
