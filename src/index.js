@@ -186,9 +186,11 @@ module.exports = {
 				format: [
 					"camelCase",
 				],
-				leadingUnderscore: "forbid",
-				selector: "default",
-				trailingUnderscore: "forbid",
+				leadingUnderscore: "require",
+				modifiers: [
+					"unused",
+				],
+				selector: "parameter",
 			},
 			{
 				format: [
@@ -201,7 +203,18 @@ module.exports = {
 					"camelCase",
 				],
 				leadingUnderscore: "allow",
-				selector: "parameter",
+				modifiers: [
+					"private",
+				],
+				selector: "memberLike",
+			},
+			{
+				format: [
+					"camelCase",
+				],
+				leadingUnderscore: "forbid",
+				selector: "default",
+				trailingUnderscore: "forbid",
 			},
 		],
 		"@typescript-eslint/no-array-constructor": "error",
@@ -343,7 +356,12 @@ module.exports = {
 		"@typescript-eslint/triple-slash-reference": "error",
 		"@typescript-eslint/type-annotation-spacing": "error",
 		"@typescript-eslint/typedef": "error",
-		"@typescript-eslint/unbound-method": "error",
+		"@typescript-eslint/unbound-method": [
+			"error",
+			{
+				ignoreStatic: true,
+			},
+		],
 		"@typescript-eslint/unified-signatures": "error",
 		"arrow-body-style": [
 			"error",
@@ -498,7 +516,7 @@ module.exports = {
 		"no-unused-labels": "error",
 		"no-unused-vars": "off",
 		"no-use-before-define": "off",
-		"no-useless-constructor": "error",
+		"no-useless-constructor": "off",
 		"no-var": "error",
 		"no-void": [
 			"error",
