@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+
 const maxLen = 120;
 const maxLines = 1000;
 
