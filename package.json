@@ -7,7 +7,7 @@
 		"url": "https://github.com/garethflowers/eslint-config-ts/issues"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "5.23.0",
+		"@typescript-eslint/eslint-plugin": "5.26.0",
 		"@typescript-eslint/parser": "5.23.0",
 		"eslint": "8.16.0",
 		"eslint-plugin-import": "2.26.0",
