@@ -261,19 +261,6 @@ module.exports = {
 		"@typescript-eslint/no-namespace": "error",
 		"@typescript-eslint/no-non-null-asserted-optional-chain": "error",
 		"@typescript-eslint/no-non-null-assertion": "error",
-		"@typescript-eslint/no-parameter-properties": [
-			"error",
-			{
-				allows: [
-					"private readonly",
-					"private",
-					"protected readonly",
-					"protected",
-					"public readonly",
-					"public",
-				],
-			},
-		],
 		"@typescript-eslint/no-redeclare": "error",
 		"@typescript-eslint/no-require-imports": "error",
 		"@typescript-eslint/no-shadow": "error",
@@ -310,6 +297,19 @@ module.exports = {
 		"@typescript-eslint/no-use-before-define": "error",
 		"@typescript-eslint/no-useless-constructor": "error",
 		"@typescript-eslint/no-var-requires": "error",
+		"@typescript-eslint/parameter-properties": [
+			"error",
+			{
+				allows: [
+					"private readonly",
+					"private",
+					"protected readonly",
+					"protected",
+					"public readonly",
+					"public",
+				],
+			},
+		],
 		"@typescript-eslint/prefer-as-const": "error",
 		"@typescript-eslint/prefer-for-of": "error",
 		"@typescript-eslint/prefer-function-type": "error",
