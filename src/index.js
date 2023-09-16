@@ -300,7 +300,7 @@ module.exports = {
 		"@typescript-eslint/parameter-properties": [
 			"error",
 			{
-				allows: [
+				allow: [
 					"private readonly",
 					"private",
 					"protected readonly",
