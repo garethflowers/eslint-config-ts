@@ -11,7 +11,7 @@
 		"@typescript-eslint/parser": "6.10.0",
 		"eslint": "8.53.0",
 		"eslint-plugin-import": "2.29.0",
-		"eslint-plugin-jsdoc": "46.8.2"
+		"eslint-plugin-jsdoc": "46.9.0"
 	},
 	"description": "Opinionated strict [eslint](https://github.com/palantir/eslint) configuration for TypeScript and JavaScript projects.",
 	"devDependencies": {
