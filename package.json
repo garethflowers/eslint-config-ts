@@ -16,7 +16,7 @@
 	"description": "Opinionated strict [eslint](https://github.com/palantir/eslint) configuration for TypeScript and JavaScript projects.",
 	"devDependencies": {
 		"mocha": "10.2.0",
-		"typescript": "5.3.2"
+		"typescript": "5.3.3"
 	},
 	"engines": {
 		"node": ">=16",
