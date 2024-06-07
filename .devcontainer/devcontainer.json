@@ -1,0 +1,16 @@
+{
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"editorConfig.editorconfig",
+				"esbenp.prettier-vscode",
+				"ms-vscode-remote.remote-containers",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	"name": "eslint-config-ts",
+	"remoteUser": "root"
+}

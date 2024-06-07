@@ -11,12 +11,12 @@
 		"@typescript-eslint/parser": "6.20.0",
 		"eslint": "8.57.0",
 		"eslint-plugin-import": "2.29.1",
-		"eslint-plugin-jsdoc": "48.2.1"
+		"eslint-plugin-jsdoc": "48.2.8"
 	},
 	"description": "Opinionated strict [eslint](https://github.com/palantir/eslint) configuration for TypeScript and JavaScript projects.",
 	"devDependencies": {
-		"mocha": "10.3.0",
-		"typescript": "5.4.2"
+		"mocha": "10.4.0",
+		"typescript": "5.4.5"
 	},
 	"engines": {
 		"node": ">=16",
@@ -28,8 +28,8 @@
 		]
 	},
 	"funding": {
-		"type": "kofi",
-		"url": "https://ko-fi.com/garethflowers"
+		"type": "paypal",
+		"url": "https://paypal.me/garethflowers"
 	},
 	"homepage": "https://github.com/garethflowers/eslint-config-ts",
 	"license": "MIT",
