@@ -28,8 +28,8 @@
 		]
 	},
 	"funding": {
-		"type": "kofi",
-		"url": "https://ko-fi.com/garethflowers"
+		"type": "paypal",
+		"url": "https://paypal.me/garethflowers"
 	},
 	"homepage": "https://github.com/garethflowers/eslint-config-ts",
 	"license": "MIT",
