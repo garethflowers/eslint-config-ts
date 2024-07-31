@@ -7,11 +7,11 @@
 		"url": "https://github.com/garethflowers/eslint-config-ts/issues"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "7.17.0",
-		"@typescript-eslint/parser": "7.17.0",
+		"@typescript-eslint/eslint-plugin": "7.18.0",
+		"@typescript-eslint/parser": "7.18.0",
 		"eslint": "8.57.0",
 		"eslint-plugin-import": "2.29.1",
-		"eslint-plugin-jsdoc": "48.9.2"
+		"eslint-plugin-jsdoc": "48.10.2"
 	},
 	"description": "Opinionated strict [eslint](https://github.com/palantir/eslint) configuration for TypeScript and JavaScript projects.",
 	"devDependencies": {
