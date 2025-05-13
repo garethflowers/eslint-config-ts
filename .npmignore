@@ -1,5 +1,7 @@
-**/*.spec.*
 /.*
-/dist/coverage
-/dist/xunit.xml
-/ts*.json
+/.vscode/
+/*.config.js
+/*.yml
+/dist/
+/src/
+/tsconfig.json

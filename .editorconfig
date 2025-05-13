@@ -7,8 +7,11 @@ indent_size = 4
 indent_style = tab
 insert_final_newline = true
 max_line_length = 80
+quote_type = double
+spelling_language = en-GB
 trim_trailing_whitespace = true
 
-[*.yml]
+[*.{yml,yaml}]
 indent_size = 2
 indent_style = space
+quote_type = single
