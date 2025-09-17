@@ -8,7 +8,7 @@
 	},
 	"dependencies": {
 		"eslint-plugin-import": "2.31.0",
-		"eslint-plugin-jsdoc": "50.6.17",
+		"eslint-plugin-jsdoc": "58.1.1",
 		"typescript-eslint": "8.41.0"
 	},
 	"description": "Opinionated strict eslint configuration for TypeScript and JavaScript projects.",
