@@ -14,7 +14,7 @@
 	"description": "Opinionated strict eslint configuration for TypeScript and JavaScript projects.",
 	"devDependencies": {
 		"mocha": "11.7.2",
-		"typescript": "5.8.3"
+		"typescript": "5.9.2"
 	},
 	"engines": {
 		"node": ">=16",
