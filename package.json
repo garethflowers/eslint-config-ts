@@ -17,7 +17,7 @@
 		"typescript": "5.9.3"
 	},
 	"engines": {
-		"node": ">=16",
+		"node": ">=20",
 		"npm": ">=8"
 	},
 	"eslintConfig": {
